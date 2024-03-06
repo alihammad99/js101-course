@@ -1,0 +1,75 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting a background color for the whole page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif; /* Setting a fallback font */
+}
+
+/* Styling the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling the main content area */
+.main-content {
+  margin: 20px;
+}
+
+/* Styling headings */
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+/* Styling paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Styling links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling buttons */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome h1 {
+  font-size: 2.5em;
+  margin: 0.3em 0;
+}
